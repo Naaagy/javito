@@ -1,0 +1,33 @@
+body {
+    background-color: #CCFFFF;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    background-color: #12406A;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    flex: 0 1 calc(40% - 20px);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.box1 {
+    background-color: #EB8F90;
+}
+
+.box2 {
+    background-color: #FFB471;
+}
+
+.box3 {
+    background-color: #ADBED2;
+}
